@@ -1,0 +1,105 @@
+/* style.css */
+
+/* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Merriweather:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f5f1; /* Lightest brown */
+  margin: 0;
+  padding: 0;
+  color: #5c4033; /* Dark brown for text */
+}
+
+/* Heading Section */
+.heading {
+  text-align: center;
+  background-color: #a47e5c; /* Medium brown */
+  color: #ffffff;
+  padding: 25px 0;
+  margin-bottom: 20px;
+}
+
+.heading h1 {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+/* Table Styling */
+table {
+  width: 85%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+caption {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: saddlebrown; /* Medium brown */
+  padding: 10px;
+  background-color: #d7c4b2; /* Soft light brown */
+  border-radius: 5px 5px 0 0;
+}
+
+th, td {
+  border: 1px solid #efe2d5; /* Very light brown */
+  padding: 12px 18px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #8b5e3c; /* Warm brown */
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f4ede6; /* Soft beige */
+}
+
+tr:hover {
+  background-color: #e8dac9; /* Slightly darker beige */
+  cursor: pointer;
+}
+
+/* Table Titles (Captions) */
+caption {
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  table {
+    width: 95%;
+  }
+
+  caption {
+    font-size: 1.3rem;
+  }
+
+  th, td {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+
+/* Styling Links and Buttons (Optional Enhancements) */
+a {
+  text-decoration: none;
+  color: #8b5e3c;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #a47e5c;
+  text-decoration: underline;
+}
